@@ -1,4 +1,4 @@
-package com.codility;
+package com.codility.array;
 
 import static java.lang.System.out;
 
@@ -8,16 +8,13 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.IntStream;
 
 /** Hello world! */
-public class App {
+public class StrictlyIncreasingArray {
 
   private static final int ELEMENT_MAX_VALUE = 100;
   private static final int ARRAY_MAX_SIZE = 7;
   private static final int NUM_OF_ARRAYS = 5;
   private static final String SEPARATOR = "    ";
-  private static final Random rand = new Random();
   
-  
-
   
   public static void main(String[] args) {
 
